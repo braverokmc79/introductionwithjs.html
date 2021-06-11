@@ -1,0 +1,340 @@
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "DungGeunMo";
+  background-color: #ffc7c7;
+  margin: 10px;
+}
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  font-size: 30px;
+  margin-left: 15%;
+}
+
+header {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  height: 550px;
+  background-color: #f6f6f6;
+  margin-left: 15%;
+}
+
+header * {
+  background-color: #f6f6f6;
+}
+
+.myself {
+  text-align: center;
+}
+
+header img {
+  margin-top: 40%;
+  width: 220px;
+  height: 200px;
+}
+
+header h1 {
+  color: #ffc7c7;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #8785a2;
+}
+
+header h2 {
+  font-size: 30px;
+  color: #ffc7c7;
+  text-shadow: -1px 0 #8785a2, 0 1px #8785a2, 1px 0 #8785a2, 0 -1px #8785a2;
+}
+
+header,
+section,
+nav {
+  float: left;
+}
+
+section {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  height: 550px;
+  width: 580px;
+  background-color: #f6f6f6;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+section * {
+  background-color: #f6f6f6;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 10px auto;
+  padding: ;
+}
+
+.photo {
+  margin-top: 10%;
+}
+
+section ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #f6f6f6;
+  margin: 0px;
+}
+
+.wrapper div {
+  margin: 15%;
+}
+
+nav {
+  margin-left: 0px;
+  padding-left: 0px;
+  border-left: 0px;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+nav li {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 7px;
+  background-color: #808b97;
+  margin: 3px;
+  padding: 8px;
+  color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #808b97;
+}
+
+.canvas {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.controls {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls .controls__btns {
+  margin-bottom: 30px;
+}
+
+.controls__btns button {
+  all: unset;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px 0px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.controls__btns button:active {
+  transform: scale(0.98);
+}
+
+.controls .controls__colors {
+  display: flex;
+}
+
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.controls .controls__range {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1114px) {
+  #wrap {
+    width: 100%;
+  }
+  footer {
+    margin-left: 10%;
+  }
+  header {
+    text-align: left;
+    width: 20%;
+    height: 480px;
+    margin-left: 10%;
+  }
+  .myself {
+    margin: 1px;
+    margin-top: 40%;
+  }
+  header img {
+    margin-top: 18%;
+    width: 60%;
+    height: 60%;
+  }
+  header h1 {
+    font-size: small;
+  }
+  header h2 {
+    font-size: xx-large;
+  }
+
+  section {
+    width: 50%;
+    height: 480px;
+  }
+
+  section li {
+    font-size: 15px;
+    margin-top: 13%;
+  }
+  .wrapper {
+    margin-top: 15px;
+  }
+  .wrapper h1 {
+    font-size: 1.2rem;
+  }
+  .wrapper li {
+    font-size: 0.65rem;
+  }
+  .wrapper ul {
+    text-align: center;
+  }
+  .iam {
+    margin-top: 13px;
+    margin-left: 2px;
+    width: 45%;
+  }
+  .like {
+    margin-top: 13px;
+    float: right;
+    width: 45%;
+  }
+  .exploring {
+    margin-top: 250px;
+  }
+  .exploring h1 {
+    font-size: 1.2rem;
+  }
+  .exploring li {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+    text-align: center;
+  }
+  header {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    background-color: #f6f6f6;
+    margin-left: 10px;
+    float: none;
+    text-align: left;
+    margin-top: 0px;
+  }
+  .myself {
+    margin-top: 2px;
+  }
+  header h1 {
+    float: center;
+    font-size: 0.6rem;
+  }
+  header h2 {
+    font-size: 1rem;
+  }
+  header h3 {
+    font-size: 0.6rem;
+  }
+  header img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: 3px;
+    margin-left: 5%;
+  }
+  section {
+    height: auto;
+    width: auto;
+    float: none;
+    margin-top: 2px;
+    margin: 0px;
+  }
+  section li {
+    font-size: 0.5rem;
+    margin: 4px;
+  }
+  nav {
+    float: none;
+  }
+  .iam {
+    float: none;
+    width: auto;
+    margin: 0px;
+    margin-right: 0px;
+  }
+  .like {
+    float: none;
+    width: auto;
+    margin: 0px;
+  }
+  .wrapper {
+    margin: 0px;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .wrapper h1 {
+    font-size: 0.6rem;
+  }
+  .wrapper li {
+    font-size: 0.5rem;
+  }
+  .wrapper ul {
+    text-align: center;
+  }
+}
