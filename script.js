@@ -118,8 +118,8 @@ function button1_click() {
   document.querySelector("#button4").style.backgroundColor = "#fbf6f0";
   document.querySelector("h1").style.color = "#ffc7c7";
   document.querySelector("h2").style.color = "#ffc7c7";
-  document.getElementById("photoOne").src = ".홈사진4.jpg";
-  document.getElementById("photoTwo").src = ".홈사진3.jpg";
+  document.getElementById("photoOne").src = "홈사진4.jpg";
+  document.getElementById("photoTwo").src = "홈사진3.jpg";
 }
 
 function button2_click() {
