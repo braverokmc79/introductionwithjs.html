@@ -118,8 +118,8 @@ function button1_click() {
   document.querySelector("#button4").style.backgroundColor = "#fbf6f0";
   document.querySelector("h1").style.color = "#ffc7c7";
   document.querySelector("h2").style.color = "#ffc7c7";
-  document.getElementById("photoOne").src = "./image/홈사진4.jpg";
-  document.getElementById("photoTwo").src = "./image/홈사진3.jpg";
+  document.getElementById("photoOne").src = ".홈사진4.jpg";
+  document.getElementById("photoTwo").src = ".홈사진3.jpg";
 }
 
 function button2_click() {
@@ -135,8 +135,8 @@ function button2_click() {
   document.querySelector("#button4").style.backgroundColor = "#B8E9FF";
   document.querySelector("h1").style.color = "#bce6eb";
   document.querySelector("h2").style.color = "#bce6eb";
-  document.getElementById("photoOne").src = "./image/summer1.jpg";
-  document.getElementById("photoTwo").src = "./image/summer2.jpg";
+  document.getElementById("photoOne").src = "summer1.jpg";
+  document.getElementById("photoTwo").src = "summer2.jpg";
 }
 
 function button3_click() {
@@ -152,8 +152,8 @@ function button3_click() {
   document.querySelector("#button4").style.backgroundColor = "#ffa45b";
   document.querySelector("h1").style.color = "#f2dcbb";
   document.querySelector("h2").style.color = "#f2dcbb";
-  document.getElementById("photoOne").src = "./image/autumn1.jpg";
-  document.getElementById("photoTwo").src = "./image/autumn2.jpg";
+  document.getElementById("photoOne").src = "autumn1.jpg";
+  document.getElementById("photoTwo").src = "autumn2.jpg";
 }
 
 function button4_click() {
@@ -169,6 +169,6 @@ function button4_click() {
   document.querySelector("#button4").style.backgroundColor = "#EFF8FF";
   document.querySelector("h1").style.color = "#EFF8FF";
   document.querySelector("h2").style.color = "#EFF8FF";
-  document.getElementById("photoOne").src = "./image/winter1.jpg";
-  document.getElementById("photoTwo").src = "./image/winter2.jpg";
+  document.getElementById("photoOne").src = "winter1.jpg";
+  document.getElementById("photoTwo").src = "winter2.jpg";
 }
