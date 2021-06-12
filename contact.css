@@ -337,4 +337,8 @@ a {
   .wrapper ul {
     text-align: center;
   }
+  
+    .sketchBook {
+    display: none;
+  }
 }
