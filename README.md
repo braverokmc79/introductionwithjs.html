@@ -1,2 +1,2 @@
 # Self-introduce page 
-## with html, css, javascript 😜
+with html, css, javascript 😜
